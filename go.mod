@@ -3,12 +3,14 @@ module github.com/jonathas/go-rest-api
 go 1.19
 
 require (
+	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/mux v1.8.0
 	gorm.io/driver/postgres v1.1.2
 	gorm.io/gorm v1.21.16
 )
 
 require (
+	github.com/felixge/httpsnoop v1.0.1 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
 	github.com/jackc/pgconn v1.10.0 // indirect
 	github.com/jackc/pgio v1.0.0 // indirect
